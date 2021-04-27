@@ -4,4 +4,4 @@ Clase de Bootstrap con React
 
 Ventajas/Contras de su uso (más en OneNote)
 
-asd
+Ejercicio de Bootstrap en Repo Clon: Implentar en las siguiente ruta /bootstrap dos componentes utilizando bootstrap, elije los que quieras, pero uno de ellos debe de poder ser interactuado mediante un boton.
