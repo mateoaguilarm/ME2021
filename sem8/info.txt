@@ -1,0 +1,28 @@
+Marzo 22, 2021 Notas
+
+Marzo 23, 2021 Ejercicios:
+
+Ejercicio React 1
+Crea un componente(funcional) en React que reciba como props los siguientes valores
+- name
+- gender
+- born
+- house
+- description
+Crea este componente y llamalo en App para que muestre los datos obtenidos ( dale estilos a tu gust
+
+
+Ejercicio React 2
+Crea dos componentes uno llamado Profile y otro llamado Navigation.
+El componente de Profile debe recibir como parametro el nombre del usuario (name) y una url de una imagen (url), este componente debe mostrar los datos de la siguiente manera (ver imagen 1 profile)
+
+El componente Navigation debe de igual manera recibir el nombre del usuario (name) y una url de una imagen (url) y debe llamar al componente Profile
+y pasarle sus respectivas propiedades y este (navigation) debe de llamarse en App para renderizar ambos componentes
+el componente navigation debe tener un boton(a tu gusto) con una funcion que le cambie el color de background al navigation
+
+
+Marzo 24, 2021
+
+Se crea Form
+rfce
+

@@ -1,0 +1,37 @@
+.winTrans {
+    transition: 1s;
+}
+
+.windowDiv {
+    width: 800px;
+    height: 480px;
+    position: absolute;
+    margin: 0 0 0 340px;
+    border-radius: 20px;
+    background-image: url(https://yoreportero.com/wp-content/uploads/2020/12/Portugal-visa-para-nomadas.jpg);
+}
+
+.win-info {
+    background-color: rgba(245, 245, 245, 0.822);
+    width: 600px;
+    height: 240px;
+    margin: 120px 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#winBtn1 {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#winBtn1:hover {
+    background-color: rgba(82, 82, 82, 0.753);
+}

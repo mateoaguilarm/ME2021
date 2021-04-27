@@ -1,0 +1,60 @@
+body {
+    display: flex;
+}
+
+.mainDivCard {
+    max-width: 100%;
+    position: relative;
+}
+
+.cardBody {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: auto;
+    box-shadow:0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);
+    border:0;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    margin: 0 0 0 100px;
+}
+
+.card-img {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 40%;
+}
+
+.card-info {
+    background-color: rgba(0, 0, 255, 0);
+    width: 90%;
+    height: 60%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#btn1 {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: rgba(0, 0, 0, 0.157);
+}
+
+/* .mainDivInfo {
+    display: flex;
+    justify-content: center;
+} */

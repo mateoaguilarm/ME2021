@@ -1,0 +1,22 @@
+
+
+.mainNav {
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    box-shadow:0 1px 3px 0 rgba(0,0,0,.3), 0 0 0 1px rgba(0,0,0,.04);
+    border:1px solid #232f3e;
+    display: flex;
+    transition: 0.6s;
+}
+
+.btn1 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.mainNav--bg-color {
+    transition: 0.6s;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}

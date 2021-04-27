@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main__sec {
+    background-color: rgb(161, 100, 218);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-add {
+    width: 90px;
+    height: 40px;
+}
+
+.main__ul {
+    background-color: antiquewhite;
+    padding: 40px 30px;
+    list-style: none;
+}
+
+#list-client {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black; 
+}
+
+#btn-read {
+    width: 90px;
+    height: 40px;
+}
+
+button {
+    background-color: bisque;
+}

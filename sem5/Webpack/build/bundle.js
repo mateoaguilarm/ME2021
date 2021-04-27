@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".hed-menu"),t=document.querySelectorAll(".hed-menu__nav-link");document.querySelector("#btn-1").addEventListener("click",(function(){e.classList.toggle("hed-menu--bg-green"),t.forEach((e=>{e.classList.toggle("hed-menu--color-w")}))}))})();

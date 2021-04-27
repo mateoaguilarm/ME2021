@@ -1,0 +1,16 @@
+Abril 12, 2021 // Repaso despues de vacaciones
+
+Abril 13, 2021 // Repaso y ejercicio React (ej1)
+
+Crea un componente de tipo Clase y Funcional (debe ser el mismo para ambos) a tu gusto que cumpla los siguientes aspectos:
+Deben tener un estado con minimo un dato
+Deben recibir propiedades (props) y mostrarlas en el HTML (minimo una propiedad)
+Deben tener una funcion propia que cambie un dato del estado
+Deben Ejecutar una accion (cualquiera que no sea ni un console.log o un alert) cuando el componente se monte
+Deben Ejecutar una accion (cualquiera que no sea ni un console.log o un alert) cuando el componente se actualice o actualice uno de sus datos
+Deben mostrar los datos del estado en el HTML
+
+Este es una sugerencia de componente, si le doy clic a un tab debe de cambiar el foco
+
+Abril 14, 2021 // Repaso de useEffect, etc
+

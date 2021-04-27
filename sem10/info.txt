@@ -1,0 +1,27 @@
+Abril 19, 2021
+
+Peticiones en React
+
+*forEach* = por cada parte del arreglo realiza una funcion
+*map* = Copia el arreglo y apartir de ese lo edita.
+
+Abril 20, 2021
+
+Repaso de Peticiones y ejercicio de APIS
+
+Crea un projecto de react donde hagas una peticion a la siguiente API https://picsum.photos/list y muestra los resultados en las ruta /images 
+Muestra los resultados utilizando useEffect, useState  y un componente llamado Card.js
+8:13
+el componente debe mostrar como minimo La imagen y el autor.
+
+
+(Se lo esta trabajando en otro repositorio) REPOCLON
+
+Abril 21, 2021
+
+Clase de: 
+
+SASS - BEM - Bootstrap / en React
+
+*Aplicado en Abril 2021/ej-api-react del otro repo*
+

@@ -1,0 +1,6 @@
+Ejercicio:
+Crea una pagina web sencilla, 
+donde tenga un boton que diga agregar cliente y otro boton que diga atender cliente. 
+el primer boton va agregar un cliente el texto puede ser "Cliente" 
+y el otro boton debe eleminar el primer cliente agregado. 
+utiliza la estructura de datos en cola

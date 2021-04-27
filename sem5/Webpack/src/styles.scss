@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header Styles */
+
+.hed-menu {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0px 17px 15px -15px rgba(0,0,0,0.7);
+    border:0;
+    transition: background-color 0.2s;
+}
+
+.hed-menu__nav-cont {
+    width: 100%;
+}
+
+.hed-menu__nav-btn {
+    width: 100px;
+    height: 40px;
+}
+
+.hed-menu__nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    list-style: none;
+}
+
+.hed-menu__nav-itemLi {
+    margin: 10px 20px;
+}
+
+.hed-menu__nav-link {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+}
+
+/* .hed-menu__nav-link:hover {
+    color: aliceblue;
+    transition: 0.2s;
+} */
+
+/* Modifier */
+
+.hed-menu--bg-green {
+    background-color: whitesmoke;
+}
+
+.hed-menu--color-w {
+    color: black;
+}

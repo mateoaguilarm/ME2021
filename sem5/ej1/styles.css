@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main-cont {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-cont__sec1 {
+    background-color: rgba(121, 121, 121, 0);
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-cont__sec1-title {
+    background-color: rgb(4, 78, 78);
+    font-size: 26px;
+    color: aliceblue;
+    width: 97.5%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.main-cont__sec1-squares {
+    background-color: rgba(127, 255, 212, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+
+.main-cont__sec1-btns {
+    background-color: rgb(4, 78, 78);
+    border: none;
+    width: 400px;
+    height: 300px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.main-cont__sec1-btns:hover {
+    background-color: rgba(4, 78, 78, 0.918);
+    transition: 0.18s;
+}
+
+/* Colores de pareja */
+
+.main-cont__sec1-btns--bg-r {
+    background-color: red;
+}
+
+.main-cont__sec1-btns--bg-r:hover {
+    background-color: rgba(255, 0, 0, 0.849);
+    transition: 0.18s;
+}
+
+.main-cont__sec1-btns--bg-y {
+    background-color: rgb(175, 175, 0);
+}
+
+.main-cont__sec1-btns--bg-y:hover {
+    background-color: rgba(173, 173, 0, 0.849);
+    transition: 0.18s;
+}
+
+.main-cont__sec1-btns--bg-p {
+    background-color: purple;
+}
+
+.main-cont__sec1-btns--bg-p:hover {
+    background-color: rgba(128, 0, 128, 0.842);
+    transition: 0.18s;
+}
