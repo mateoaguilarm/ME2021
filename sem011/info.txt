@@ -11,3 +11,25 @@ Ejercicio de Bootstrap en Repo Clon: Implentar en las siguiente ruta /bootstrap 
 Abril 27, 2021
 
 Clase, continuación de anterior (ejercicio)
+
+---
+
+Abril 28, 2021
+
+Repaso clase (Orden de carpetas)
+
+- Legacy: archivos
+
+- components: Todos los archivos componente
+
+- Style: Archivos de estilo de los componentes
+
+  - dentro esta una carpeta para los mixins y otra para solo los components
+
+  - el la mera styles esta el index.scss que controla e importa a todos los demas estilos.
+
+- Views: Llama a los componentes para que App.js no se sature de contenido.
+
+  - Consta en reunir lo relevante con lo relevante para tener mas orden,
+        es decir, un solo js para reunir a los componentes.
+
