@@ -1,0 +1,5 @@
+Mayo 3, 2021
+
+    async await 
+        ( que viene a ser la forma ecmascript6 de hacer promesas y peticiones )
+
