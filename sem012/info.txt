@@ -3,3 +3,6 @@ Mayo 3, 2021
     async await 
         ( que viene a ser la forma ecmascript6 de hacer promesas y peticiones )
 
+    Esta el ejemplo grafico en OneNote
+
+    Clase de useRef ( complemento de React )
