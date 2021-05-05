@@ -6,3 +6,10 @@ Mayo 3, 2021
     Esta el ejemplo grafico en OneNote
 
     Clase de useRef ( complemento de React )
+
+Mayo 4, 2021
+
+    Clase de:
+    - Rutas privadas y autenticación
+
+    
