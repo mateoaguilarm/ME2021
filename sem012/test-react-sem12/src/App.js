@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // Components
 
 import Navbar from './Components/Navbar';
+import Cards from './Components/Cards';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <div className="App">
         <Switch>
           <Navbar />
-          <Route>
-
+          <Route path='/Cards'>
+            <Cards />
           </Route>
         </Switch>
       </div>

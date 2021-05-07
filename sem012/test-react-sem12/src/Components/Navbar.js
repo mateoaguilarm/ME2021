@@ -17,10 +17,10 @@ function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="./">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="./">Cards</Link>
+                                <Link className="nav-link" to="./Cards">Cards</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="./">Pricing</Link>
+                                <Link className="nav-link" to="./Pricing">Pricing</Link>
                             </li>
                             <li className="nav-item ms-mine">
                                 <button type="button" class="btn btn-info"><Link className="nav-link link-p" to="./">Log In</Link></button>
