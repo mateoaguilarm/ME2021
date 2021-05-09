@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
 import Cards from './Components/Cards';
+import PricingPart from './Components/PricingPart';
 
 function App() {
   return (
@@ -11,9 +12,12 @@ function App() {
       <div className="App">
         <Switch>
           <Navbar />
+          <Cards />
+          
           <Route path='/Cards'>
-            <Cards />
+            
           </Route>
+          <PricingPart />
         </Switch>
       </div>
     </BrowserRouter>
