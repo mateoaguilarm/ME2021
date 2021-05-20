@@ -1,10 +1,19 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 import '../Styles/Counter.css';
 
 function Counter(props) {
 
-    const [items, setItems] = useState('cart empty')
+    const [items, setItems] = useState('empty');
+
+    const addCard = () => {
+        setItems(1);
+    };
+
+    const delCard = () => {
+        setItems(items - 1);
+    };
 
     useEffect(() => {
         if (typeof items === 'string') {
@@ -21,6 +30,8 @@ function Counter(props) {
             <div className='cart-number'>
                 {items}
             </div>
+            <Link onClick={addCard} id='btn-card-add' to="#" className="card-link">Add Cart</Link>
+            <Link onClick={delCard} id='btn-card-del' to="#" className="card-link">Remove Cart</Link>
         </div>
     )
 }
