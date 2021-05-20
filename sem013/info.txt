@@ -1,3 +1,12 @@
 Mayo 17, 2021 // Semana de Proyecto ()
 
 Intento de la parte FUNCIONAL del proyecto.
+
+Mayo 18, 2021 // 
+
+    Test parte visual en TestsME
+
+Mayo 19, 2021 // 
+
+    Inicio parte funcional ( arreglo, contador )
+
