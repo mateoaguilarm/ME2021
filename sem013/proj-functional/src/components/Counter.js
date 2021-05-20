@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Counter() {
+function Counter(props) {
+
+
     return (
-        <div>
-            
+        <div style={{ fontSize: '50px'}}>
+            un numero #
         </div>
     )
 }

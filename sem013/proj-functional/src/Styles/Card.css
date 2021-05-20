@@ -1,0 +1,8 @@
+.cards-div {
+    display: flex;
+    margin: 60px;
+}
+
+.card {
+    margin: 20px;
+}
