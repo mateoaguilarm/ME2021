@@ -25,31 +25,25 @@ function Counter(props) {
         }
     }, [items])
 
-    const cartItems = ['asd', '2', '3', '', ''];
+    const [cart, setCart] = useState(0);
 
-    const delCard = () => {
-        cartItems.shift()
+    const addCard = () => {
+        const card1 = 'curso-1-added';
+        setCart(card1)
+
+        setItems(items + 1)
     }
 
-    useEffect(() => {
-        setItems(cartItems.length)
-    }, [cartItems.length])
-
-    const myFunction = () => {
-        cartItems.push("Kiwi");
-        
-    }
-
-    console.log(cartItems.length);
-    console.log(cartItems);
+    console.log( `esto esta en cart: ${cart} 
+    and esto esta en items: ${items}` )
 
     return (
         <div>
             <div className='cart-number'>
                 {items}
             </div>
-            <Link onClick={myFunction} id='btn-card-add' to="#" className="card-link">Add Cart</Link>
-            <Link onClick={delCard} id='btn-card-del' to="#" className="card-link">Remove Cart</Link>
+            <Link onClick={addCard} id='btn-card-add'  className="card-link">Add Cart</Link>
+            <Link  id='btn-card-del'  className="card-link">Remove Cart</Link>
         </div>
     )
 }
