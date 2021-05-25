@@ -19,7 +19,7 @@ function Card(props) {
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
                     <Link onClick={test} id='btn-card1-add' to="#" className="card-link">Add Cart</Link>
-                    <Link id='btn-card1-del' to="#" className="card-link">Remove Cart</Link>
+                    <Link id='btn-card1-del' to="#" className="card-link">Close</Link>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ function Card(props) {
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
                     <Link id='btn-card2-add' to="#" className="card-link">Add Cart</Link>
-                    <Link id='btn-card2-del' to="#" className="card-link">Remove Cart</Link>
+                    <Link id='btn-card2-del' to="#" className="card-link">Close</Link>
                 </div>
             </div>
         </div>

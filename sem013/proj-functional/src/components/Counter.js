@@ -5,18 +5,18 @@ import '../Styles/Counter.css';
 
 function Counter(props) {
 
-    const [items, setItems] = useState('empty');
+    const [items, setItems] = useState(0);
 
-    const addCard = () => {
-        setItems(1);
-    };
+    // const addCard = () => {
+    //     setItems(1);
+    // };
 
-    const delCard = () => {
-        setItems(items - 1);
-    };
+    // const delCard = () => {
+    //     setItems(items - 1);
+    // };
 
     useEffect(() => {
-        if (typeof items === 'string') {
+        if (typeof items === 0) {
             const cartNumber = document.querySelector('.cart-number');
             cartNumber.classList.toggle('cart-number--colorNone')
         } else {
@@ -25,12 +25,30 @@ function Counter(props) {
         }
     }, [items])
 
+    const cartItems = ['asd', '2', '3', '', ''];
+
+    const delCard = () => {
+        cartItems.shift()
+    }
+
+    useEffect(() => {
+        setItems(cartItems.length)
+    }, [cartItems.length])
+
+    const myFunction = () => {
+        cartItems.push("Kiwi");
+        
+    }
+
+    console.log(cartItems.length);
+    console.log(cartItems);
+
     return (
         <div>
             <div className='cart-number'>
                 {items}
             </div>
-            <Link onClick={addCard} id='btn-card-add' to="#" className="card-link">Add Cart</Link>
+            <Link onClick={myFunction} id='btn-card-add' to="#" className="card-link">Add Cart</Link>
             <Link onClick={delCard} id='btn-card-del' to="#" className="card-link">Remove Cart</Link>
         </div>
     )
