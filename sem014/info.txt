@@ -7,3 +7,5 @@ Mayo 25, 2021 // Testing
     Anotaciones en OneNote
 
     Carpeta creada "TDD" (Test-Driven Development)
+
+    Ejercicio de tests, Concatenar texto con tests
