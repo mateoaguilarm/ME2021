@@ -1,6 +1,9 @@
 Mayo 24, 2021 // Entrega proyecto
     Continuar con toques finales del proyecto (o acabarlo)
 
+    (Archivo de anterior semana)
+
 Mayo 25, 2021 // Testing
     Anotaciones en OneNote
-    
+
+    Carpeta creada "TDD" (Test-Driven Development)
