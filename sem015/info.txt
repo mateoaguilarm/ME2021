@@ -6,3 +6,5 @@ Junio 01, 2021
 
     Bcknd
     Rutas / Routes
+
+    intro02 is a copy of sensei's part
