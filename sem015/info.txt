@@ -13,3 +13,8 @@ Junio 02, 2021
 
     intro a MongoDB
     añadiendo 'models' folder en intro02, as copy.
+
+Junio 03, 2021
+
+    Asesoría / Practica
+    
