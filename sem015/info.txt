@@ -8,3 +8,8 @@ Junio 01, 2021
     Rutas / Routes
 
     intro02 is a copy of sensei's part
+
+Junio 02, 2021
+
+    intro a MongoDB
+    añadiendo 'models' folder en intro02, as copy.
