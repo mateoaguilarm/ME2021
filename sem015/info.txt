@@ -17,4 +17,4 @@ Junio 02, 2021
 Junio 03, 2021
 
     Asesoría / Practica
-    
+    (line codes copied, summary of backend finished)
