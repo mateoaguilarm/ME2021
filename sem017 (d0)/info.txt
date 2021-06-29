@@ -1,2 +1,13 @@
 Dia cero despues de vacaciones.
 
+Junio 28, 2021
+
+    Middlewares
+
+        Codeo de Vic: Middleware para el tiempo
+        con moment.js: formatear fecha
+
+        celebrate.js: para indicar al servidor que los datos 
+        seran validados.
+
+        
